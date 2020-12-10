@@ -12,6 +12,8 @@
     * To verify the container ID, run docker ps to review the container ID, status, and port mappings of all running containers.
 4. Open an web browser on the host and access SplunkWeb inside the container using the address:
     > localhost:8000
+    > 172.171.65.124:8000
+    > admin/dongxuntech
 5. Log in to Splunk Enterprise inside the container using the username admin and the password you set when you ran the Docker image.
 ![syslog接收配置](splunk/syslog_receive.png)
 

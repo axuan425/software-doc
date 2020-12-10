@@ -1,4 +1,4 @@
-# centos
+# centos install
 ```
 yum install -y docker
 vi /etc/docker/daemon.json
@@ -15,4 +15,8 @@ vi /etc/docker/daemon.json
 ```
 systemctl restart docker
 ```
+
+# For use
+### get mount dir for container
+> docker inspect <container_id> | grep Mounts -A 20
 
