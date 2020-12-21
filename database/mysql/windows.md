@@ -28,6 +28,8 @@ default-storage-engine=INNODB
 > open cmd with admin role
 > cd ${basepath}/bin
 > mysqld --initialize --user=mysql --console
+    > when msvcr120.dll error, install the follow file
+    > https://www.microsoft.com/zh-CN/download/details.aspx?id=40784
 > mysqld --install mysql57
 > net start mysql57
 
