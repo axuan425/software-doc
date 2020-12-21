@@ -35,4 +35,7 @@ default-storage-engine=INNODB
 > mysql -uroot -p'initialize password'
 > set password for root@localhost=password("new password")
 
+6. import sql file(must use /, not \\)
+> mysql -uroot -p < d:/h.sql
+
 ---
